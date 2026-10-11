@@ -1,0 +1,50 @@
+Milk
+Eggs
+Bread
+Rice
+Pasta
+Tomatoes
+Onions
+Garlic
+Spinach
+Bananas
+Apples
+Oranges
+Carrots
+Potatoes
+Chicken
+Salmon
+Yogurt
+Cheese
+Peanut Butter
+Cereal
+Avocados
+Lettuce
+Blueberries
+Strawberries
+Grapes
+Watermelon
+Pineapple
+Mango
+Kiwi
+Pears
+Plums
+Peaches
+Cucumber
+Celery
+Bell Peppers
+Zucchini
+Broccoli
+Cauliflower
+Green Beans
+Sweet Potatoes
+Lemon
+Lime
+Mushrooms
+Tofu
+Shrimp
+Ground Beef
+Turkey
+Ham
+Sour Cream
+Olive Oil
