@@ -7,7 +7,6 @@
 
 
 import warnings
-import ollama
 from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain_community.document_loaders import OnlinePDFLoader
 warnings.filterwarnings("ignore")
@@ -51,13 +50,13 @@ from langchain_classic.retrievers import MultiQueryRetriever
 
 llm = ChatOllama(model=model)
 QueryPrompt = PromptTemplate(
-    input_variables=["query"],
+    input_variables=["question"],
     template="""
     You are a helpful assistant. Your task is to generate five different versions of the 
     given user query to retrieve relevant documents from a vector database. By Generating multiple 
     perspective on the user question, your goal is to help the user overcome some of the limitations
     of the distance-based similiarity search. Provide these alternative questions seperated by new lines.
-    Original question: {query}
+    Original question: {question}
     """,
 )
 
@@ -79,6 +78,7 @@ chain = (
 )
 print("RAG chain is ready to use.")
 
-res = chain.invoke(input=("What is the document about?",))
+# res = chain.invoke("What is the document about?")
+res = chain.invoke("What is Finance and Accounting?")
 
 print(res)

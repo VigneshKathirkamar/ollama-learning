@@ -11,3 +11,4 @@ unstructured[all-docs]
 fastembed
 sentence-transformers
 elevenlabs
+langchain-huggingface
