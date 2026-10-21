@@ -12,3 +12,4 @@ fastembed
 sentence-transformers
 elevenlabs
 langchain-huggingface
+streamlit
